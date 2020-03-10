@@ -1,0 +1,28 @@
+/*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
+
+/* HEADER */
+
+/* CAROUSSEL */
+
+/* ARTICLE */
+.articles {
+    text-align: center;
+}
+
+.articles h2 {
+    color: #FF6B6B;
+}
+
+
+.art_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.art_img img{
+    width: 48%;
+    margin: 0.5% 0.1%;
+
+}
+/* JOINUS */
