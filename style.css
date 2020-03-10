@@ -14,8 +14,12 @@ p, h3, a {
     margin: 0;
     padding: 0;
 }
-/*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
 
+/*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
+/* TITLE */
+title {
+    text-transform: uppercase;
+}
 /* HEADER */
 header{
     background:#004E64;
@@ -54,9 +58,34 @@ header h1{
 
 }
 
+
 /* CAROUSSEL */
 
 /* ARTICLE */
+
+.articles {
+    text-align: center;
+}
+
+.articles h2 {
+    color: #FF6B6B;
+    text-transform: uppercase;
+}
+
+
+.art_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.art_img img{
+    width: 48%;
+    margin: 0.5% 0.1%;
+
+}
+/* JOINUS */
+
 
 /* JOINUS */
 
@@ -95,3 +124,4 @@ footer a:visited {
     justify-content: center;
     flex-grow: 1;  
 }
+
