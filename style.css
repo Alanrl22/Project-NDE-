@@ -134,3 +134,55 @@ footer a:visited {
     justify-content: center;
     flex-grow: 1;  
 }
+
+/*------------------------------------------------------------ PAGE JOINUS -----------------------------------------------------------*/
+
+input,
+textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+    outline: none;
+    text-align: center;
+}
+
+input#button {
+	background-color:#FF6B6B;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #004E64;
+	border: none;
+	outline: none;
+    font-weight: bold;
+    width: 30%;
+}
+
+fieldset {
+	border-style: none;
+	text-align: center;
+}
+
+label {
+	display: none;
+	
+}
+
+.Contactus h2 {
+    display: flex;
+    justify-content: center;
+    color: #FF6B6B;
+    text-transform: uppercase;
+}
+
+.Contactus div {
+    margin: 10px;
+}
+
+.Contactus {
+    margin-top: 1em;
+}
