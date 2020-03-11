@@ -1,5 +1,9 @@
  
 /* -----------------------------------------------------------Generique------------------------------------------------------------ */
+html {
+    height: 100%;
+}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #FF6B6B;
@@ -17,6 +21,12 @@ p, h3, a, li {
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 /* TITLE */
@@ -98,8 +108,9 @@ header h1 {
 footer {
     color: #004e64;
     background-color: #4Ecdc4;
-    display: flex;
+    display: flex;S
     flex-direction: column;
+    margin-top: auto;
 }
 
 footer a:hover{
@@ -182,6 +193,8 @@ label {
 .Contactus {
     margin-top: 1em;
 }
+
+
 /*------------------------------------------------------------ PAGE PROGRAMMATION -----------------------------------------------------------*/
 
 .programmation {
@@ -232,4 +245,22 @@ padding: 2%;
 }
 .story p{
     padding : 2% 2% 2% 0
+}
+
+/*------------------------------------------------------------MEDIA---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px){
+
+
+  /*--------------------Page Joinus ----------------------------------------- */
+  
+  input#button {
+      width: 10%;
+      margin-top: 20px;
+      font-size: 1.2rem;
+  }
+
+  input,
+textarea {
+    width: 50%;
 }
