@@ -11,6 +11,7 @@ p, h3, a, li {
     font-family: lato;
     text-decoration: none;
     font-size: 1.2 rem;
+
 }
 
 * {
@@ -38,11 +39,13 @@ header h1 {
     font-family: monoton;
     font-size: 5rem;
     text-transform: uppercase;
-    padding-top: 1rem;
-    padding-left: 1rem;
     color: #F7FFF7;   
     flex-basis: 70%;
     text-align: center;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icones,nav ul {
@@ -66,10 +69,6 @@ header h1 {
 
 
 /* CAROUSSEL */
-
-.slider{
-    
-}
 
 .slider img{
     width: 100%;
@@ -166,4 +165,20 @@ footer a:visited {
     flex-direction: column;
     text-align: center;
     margin: 10% 0%;
+}
+/*------------------------------------------------------------ PAGE FSTIVAL -----------------------------------------------------------*/
+.story img{
+    width: 100%;
+}
+
+.story h2{
+    text-align: center;
+    padding: 2%;
+}
+
+.story h3{
+padding: 2%;
+}
+.story p{
+    padding : 2% 2% 2% 0
 }
