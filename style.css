@@ -80,6 +80,8 @@ header h1 {
 }
 
 
+
+
 /* CAROUSSEL */
 
 .slider img{
@@ -100,10 +102,43 @@ header h1 {
     justify-content: space-around;
 }
 
-.art_img img {
-    width: 48%;
-    margin: 3% 0.1%;
+
+
+.container {
+    position: relative;
+    width: 95%;
 }
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 453%);
+    background-color: #FFFF;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .container p {
+      position: absolute;
+      top: 73%;
+      left: 10%;
+      color: white;
+      transform: (-50%,-50%);
+      z-index: 99;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+  }
 
 /* FOOTER */
 
