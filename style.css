@@ -1,14 +1,19 @@
 /* -----------------------------------------------------------Generique------------------------------------------------------------ */
 
 h2 {
-    font-style: roboto;
+    font-family: roboto;
+    font-size: 3rem;
 }
 
-p, h3, a {
-    font-style: lato;
+p, a {
+    font-family: lato;
     text-decoration: none;
-    font-size: 1.5em
+    font-size: 1.2rem
 }
+h3{
+    font-size: 2rem;
+}
+
 
 *{
     margin: 0;
@@ -32,11 +37,13 @@ header{
 header h1{
     font-family: monoton;
     text-transform: uppercase;
-    padding-top: 3rem;
-    padding-left: 1rem;
     color: #F7FFF7;   
     flex-basis: 70%;
     text-align: center;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icones,nav ul{
@@ -125,3 +132,19 @@ footer a:visited {
     flex-grow: 1;  
 }
 
+/*------------------------------------------------------------ PAGE FSTIVAL -----------------------------------------------------------*/
+.story img{
+    width: 100%;
+}
+
+.story h2{
+    text-align: center;
+    padding: 2%;
+}
+
+.story h3{
+padding: 2%;
+}
+.story p{
+    padding : 2% 2% 2% 0
+}
