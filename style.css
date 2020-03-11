@@ -38,13 +38,16 @@ header {
     vertical-align: middle;
 }
 header h1 {
+
     font-family: 'Monoton', cursive;
+    font-size: 5rem;
     text-transform: uppercase;
-    padding-top: 3rem;
-    padding-left: 1rem;
     color: #F7FFF7;   
     flex-basis: 70%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icones,nav ul {
@@ -130,6 +133,57 @@ footer a:visited {
     flex-grow: 1;  
 }
 
+/*------------------------------------------------------------ PAGE JOINUS -----------------------------------------------------------*/
+
+input,
+textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+    outline: none;
+    text-align: center;
+}
+
+input#button {
+	background-color:#FF6B6B;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #004E64;
+	border: none;
+	outline: none;
+    font-weight: bold;
+    width: 30%;
+}
+
+fieldset {
+	border-style: none;
+	text-align: center;
+}
+
+label {
+	display: none;
+	
+}
+
+.Contactus h2 {
+    display: flex;
+    justify-content: center;
+    color: #FF6B6B;
+    text-transform: uppercase;
+}
+
+.Contactus div {
+    margin: 10px;
+}
+
+.Contactus {
+    margin-top: 1em;
+}
 /*------------------------------------------------------------ PAGE PROGRAMMATION -----------------------------------------------------------*/
 
 .programmation {
@@ -170,6 +224,23 @@ footer a:visited {
     flex-direction: column;
     text-align: center;
     margin: 10% 0%;
+}
+
+/*------------------------------------------------------------ PAGE FSTIVAL -----------------------------------------------------------*/
+.story img{
+    width: 100%;
+}
+
+.story h2{
+    text-align: center;
+    padding: 2%;
+}
+
+.story h3{
+padding: 2%;
+}
+.story p{
+    padding : 2% 2% 2% 0
 }
 
 /*------------------------------------------------------------ MEDIA -----------------------------------------------------------*/
