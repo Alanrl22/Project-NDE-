@@ -9,13 +9,15 @@ h2 {
     color: #FF6B6B;
     text-transform: uppercase;
     padding: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 p, h3, a, li {
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
-    font-size: 1.2 rem;
-
+    font-size: 1.2rem;
 }
 
 * {
@@ -46,13 +48,13 @@ header {
     vertical-align: middle;
 }
 header h1 {
-    font-family: monoton;
+
+    font-family: 'Monoton', cursive;
     font-size: 5rem;
     text-transform: uppercase;
     color: #F7FFF7;   
     flex-basis: 70%;
     text-align: center;
-    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +91,7 @@ header h1 {
 
 .articles {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .art_img {
@@ -99,8 +102,7 @@ header h1 {
 
 .art_img img {
     width: 48%;
-    margin: 0.5% 0.1%;
-
+    margin: 3% 0.1%;
 }
 
 /* FOOTER */
@@ -203,10 +205,15 @@ label {
     flex-direction: column;
 }
 
+.block-jours {
+    display: flex;
+    flex-direction: column;
+}
+
 .jours {
     color: #004e64;
     text-transform: uppercase;
-    text-decoration: underline;
+
     font-weight: bold;
     font-size: 1.6rem;
 }
@@ -214,13 +221,14 @@ label {
 .programmation  ul li {
     list-style: none;
     text-transform: uppercase;
-    font-size: 0.95rem;
-    padding: 3%;
+    font-size: 1.2rem;
+    padding: 4%;
 }
 
 .programmation h3 {
     text-align: center;
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .vendredi, .samedi, .dimanche {
@@ -230,6 +238,7 @@ label {
     text-align: center;
     margin: 10% 0%;
 }
+
 /*------------------------------------------------------------ PAGE FSTIVAL -----------------------------------------------------------*/
 .story img{
     width: 100%;
@@ -247,20 +256,32 @@ padding: 2%;
     padding : 2% 2% 2% 0
 }
 
-/*------------------------------------------------------------MEDIA---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px){
+/*------------------------------------------------------------ MEDIA -----------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    /* HOME */
+
+    /* PROGRAMMATION */
+    .block-jours {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+
+    }
 
 
-  /*--------------------Page Joinus ----------------------------------------- */
+  /* Joinus  */
   
   input#button {
-      width: 10%;
-      margin-top: 20px;
-      font-size: 1.2rem;
-  }
+    width: 10%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
 
-  input,
+input,
 textarea {
-    width: 50%;
+  width: 50%;
+}
+    
 }
