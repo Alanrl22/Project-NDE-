@@ -1,28 +1,33 @@
  
 /* -----------------------------------------------------------Generique------------------------------------------------------------ */
-
 h2 {
-    font-style: roboto;
+    font-family: 'Roboto', sans-serif;
+    color: #FF6B6B;
+    text-transform: uppercase;
+    padding: 3%;
 }
 
-p, h3, a {
-    font-style: lato;
+p, h3, a, li {
+    font-family: lato;
     text-decoration: none;
-    font-size: 1.5em
+    font-size: 1.2 rem;
+
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
 /* TITLE */
 title {
     text-transform: uppercase;
 }
+
+/*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
+
 /* HEADER */
-header{
+header {
     background:#004E64;
     width: 100%;
     height:10rem;
@@ -30,29 +35,32 @@ header{
     justify-content: space-between;
     vertical-align: middle;
 }
-header h1{
+header h1 {
     font-family: monoton;
+    font-size: 5rem;
     text-transform: uppercase;
-    padding-top: 3rem;
-    padding-left: 1rem;
     color: #F7FFF7;   
     flex-basis: 70%;
     text-align: center;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.icones,nav ul{
+.icones,nav ul {
     display : none;
 }
 
-.burger img{
+.burger img {
     display: flex;
     justify-content: flex-end;
     height: 8rem;
     width: 8rem;
-    padding-top: 1rem;
+    padding-top: 1rem; 
 }                
 
-.burger{
+.burger {
     width: 30%;
     display: flex;
     justify-content: flex-end;
@@ -61,10 +69,6 @@ header h1{
 
 
 /* CAROUSSEL */
-
-.slider{
-    
-}
 
 .slider img{
     width: 100%;
@@ -77,32 +81,23 @@ header h1{
     text-align: center;
 }
 
-.articles h2 {
-    color: #FF6B6B;
-    text-transform: uppercase;
-}
-
-
 .art_img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.art_img img{
+.art_img img {
     width: 48%;
     margin: 0.5% 0.1%;
 
 }
-/* JOINUS */
-
-
-/* JOINUS */
 
 /* FOOTER */
+
 footer {
     color: #004e64;
-    background-color: #4ECDC4;
+    background-color: #4Ecdc4;
     display: flex;
     flex-direction: column;
 }
@@ -113,6 +108,7 @@ footer a:hover{
 
 footer a:link {
     text-decoration: none;
+    color: #004e64;
 } 
 
 footer a:visited {
@@ -133,4 +129,56 @@ footer a:visited {
     flex-direction: row;
     justify-content: center;
     flex-grow: 1;  
+}
+
+/*------------------------------------------------------------ PAGE PROGRAMMATION -----------------------------------------------------------*/
+
+.programmation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jours {
+    color: #004e64;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.programmation  ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    padding: 3%;
+}
+
+.programmation h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.vendredi, .samedi, .dimanche {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0%;
+}
+/*------------------------------------------------------------ PAGE FSTIVAL -----------------------------------------------------------*/
+.story img{
+    width: 100%;
+}
+
+.story h2{
+    text-align: center;
+    padding: 2%;
+}
+
+.story h3{
+padding: 2%;
+}
+.story p{
+    padding : 2% 2% 2% 0
 }
