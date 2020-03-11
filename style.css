@@ -62,6 +62,15 @@ header h1{
 
 /* CAROUSSEL */
 
+.slider{
+    
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+}
+
 /* ARTICLE */
 
 .articles {
