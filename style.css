@@ -5,12 +5,15 @@ h2 {
     color: #FF6B6B;
     text-transform: uppercase;
     padding: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 p, h3, a, li {
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
 }
 
 * {
@@ -35,7 +38,7 @@ header {
     vertical-align: middle;
 }
 header h1 {
-    font-family: monoton;
+    font-family: 'Monoton', cursive;
     text-transform: uppercase;
     padding-top: 3rem;
     padding-left: 1rem;
@@ -66,10 +69,6 @@ header h1 {
 
 /* CAROUSSEL */
 
-.slider{
-    
-}
-
 .slider img{
     width: 100%;
     height: auto;
@@ -79,6 +78,7 @@ header h1 {
 
 .articles {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .art_img {
@@ -89,8 +89,7 @@ header h1 {
 
 .art_img img {
     width: 48%;
-    margin: 0.5% 0.1%;
-
+    margin: 3% 0.1%;
 }
 
 /* FOOTER */
@@ -139,10 +138,15 @@ footer a:visited {
     flex-direction: column;
 }
 
+.block-jours {
+    display: flex;
+    flex-direction: column;
+}
+
 .jours {
     color: #004e64;
     text-transform: uppercase;
-    text-decoration: underline;
+
     font-weight: bold;
     font-size: 1.6rem;
 }
@@ -151,7 +155,7 @@ footer a:visited {
     list-style: none;
     text-transform: uppercase;
     font-size: 0.95rem;
-    padding: 3%;
+    padding: 4%;
 }
 
 .programmation h3 {
@@ -165,4 +169,19 @@ footer a:visited {
     flex-direction: column;
     text-align: center;
     margin: 10% 0%;
+}
+
+/*------------------------------------------------------------ MEDIA -----------------------------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+    /* HOME */
+
+    /* PROGRAMMATION */
+    .block-jours {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+
+    }
+    
 }
