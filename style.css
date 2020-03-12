@@ -210,7 +210,7 @@ nav ul li a{
      text-align: center;
  }
 
- input#button {
+ #button {
      background-color: #FF6B6B;
      border-radius: 0.313rem;
      cursor: pointer;
@@ -263,9 +263,7 @@ nav ul li a{
 
  .jours {
      color: #FF6B6B;
-     ;
      text-transform: uppercase;
-
      font-weight: bold;
      font-size: 1.6rem;
  }
@@ -305,8 +303,8 @@ nav ul li a{
 
  .story h2 {
      text-align: center;
-     padding: 2%;
-     margin: 3% 0 2% 0;
+     padding: 0.5rem;
+     margin: 1rem 0 0.8rem 0;
  }
 
  .story h3 {
@@ -315,9 +313,9 @@ nav ul li a{
  }
 
  .story p {
-     padding: 3% 2% 3% 0;
+     padding: 1rem 0.5rem 1rem 0;
      color: white;
-     margin: 2% 3%;
+     margin: 0.5rem 1rem;
      text-align: center;
  }
 
@@ -335,7 +333,7 @@ nav ul li a{
         font-family: 'Roboto', sans-serif;
         color: #FF6B6B;
         text-transform: uppercase;
-        padding: 3%;
+        padding: 4rem;
         font-size: 3rem;
     }
 
@@ -402,6 +400,7 @@ nav ul li a{
         justify-content: center;
     }
      /* PROGRAMMATION */
+
      .block-jours {
          flex-direction: row;
          width: 70%;
@@ -414,13 +413,18 @@ nav ul li a{
 
      input#button {
          width: 10%;
-         margin-top: 20px;
+         margin-top: 1.25rem;
          font-size: 1.2rem;
      }
 
      input,
      textarea {
          width: 50%;
+         text-align: start;
+     }
+
+     #button {
+         text-align: center;
      }
 
      /* Festival */
@@ -465,13 +469,16 @@ nav ul li a{
     }
     .aller h2{
         font-size: 3rem;
+        margin: 3rem 0rem;
     }
     .aller p {
         font-size: 2rem;
-        padding: 1.5%;
-        margin: 1%;
+        padding: 0.8rem;
+        margin: 0.6rem;
     }
-
+    .story h2 {
+        margin: 3rem 0rem;
+    }
  }
 
 
