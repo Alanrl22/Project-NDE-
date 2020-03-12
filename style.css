@@ -117,6 +117,7 @@ nav ul li a{
 .container img {
     width: 100%;
     height: auto;
+    border-radius: 6%;
 }
 
 .container .btn {
