@@ -67,19 +67,19 @@ header nav {
     display: flex;
 }
 
-nav ul{
+.menu {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 
-nav ul li{
+.menu li{
     display: flex;
 }
 
-nav ul li a{
+.menu li a{
     color: #F7FFF7;
 }
 
@@ -348,6 +348,7 @@ nav ul li a{
         margin: 0;
         padding: 0;
     }
+
     /* HOME */
     header{
         height:25vh;
@@ -361,44 +362,95 @@ nav ul li a{
         font-size: 3rem;
     }
 
-    .icones{
-        display: flex;
-
-    }
-
     header nav{
         display: flex;
     }
 
-    nav ul{
+    .menu{
         padding: 0;
+        flex-basis: 80%;
     }
 
-    nav ul li{
+    .menu li{
         align-items: center;
         flex-basis: 34%;
     }
 
-    nav ul li a{
+    .menu li a{
         text-align: center;
         flex-basis: 100%;
         display: inline-block;
         line-height: 7vh;
+        font-size: 1.3rem;
     }
 
-    nav ul li a:hover{
+    .menu li a:hover{
         background: #F7FFF7;
         color: #004E64;
+        transition: background 1s ease;
     }
 
-    .art_img img {
+    .icones{
+        display: flex;
+        padding: 0;
+        flex-basis: 20%;
+    }
+
+    .icones li{
+        align-items: center;
+        flex-basis: 34%;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .icones li a{
+        text-align: center;
+        flex-basis: 100%;
+        display: inline-block;
+        line-height: 7vh;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .icones li a:hover{
+        background: #F7FFF7;
+        color: #004E64;
+        transition: background 1s ease;
+    }
+    .icones i:hover{
+        color: #004E64;
+        transition: background 1s ease;
+    }
+    .icones i{
+        color: #F7FFF7;
+        width: 100%;
+    }
+
+
+    .slider img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .container{
         width: 40%;
         margin: 0.5%;
     }
-    
+
+    .art_img img {
+        width: 100%;
+        margin: 0.5%;
+    }
+
     .art_img{
         justify-content: center;
     }
+
+    footer{
+        margin-top: 2%;
+    }
+
      /* PROGRAMMATION */
      .block-jours {
          flex-direction: row;
