@@ -358,7 +358,7 @@ header nav {
         color: #FF6B6B;
         text-transform: uppercase;
         padding: 4rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     p, h3, a, li{
@@ -382,8 +382,8 @@ header nav {
         padding-top: 3%;
     }
 
-    h1 a{
-        font-size: 3rem;
+    header h1 a{
+        font-size: 3.4rem;
     }
 
     header nav{
@@ -496,27 +496,35 @@ header nav {
 
 
    .programmation ul li {
-   list-style: none;
-   text-transform: uppercase;
-   font-size: 1.2rem;
-   padding: 1rem;
-   color: white;
-    }
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding: 1rem;
+        color: white;
+            }
 
     .jours {
-            font-size: 2.6rem;
-            margin-bottom: 1.2rem;
+        font-size: 2.6rem;
+        margin-bottom: 1.2rem;
     }
 
 
     .programmation ul li {
-    list-style: none;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    padding: 1rem;
-    color: white;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding: 1rem;
+        color: white;
+        }
+
+    .vendredi, .dimanche{
+        border-left: dashed white;
+        border-right: dashed white;
     }
 
+    .vendredi, .samedi, .dimanche{
+        width: 40%;
+    }
 
 
      /* Joinus  */
@@ -590,7 +598,11 @@ header nav {
         margin: 3rem 0rem;
     }
 
-
+    .btn:hover{
+        background: grey;
+        color: white;
+        
+    }
 
 
  }
