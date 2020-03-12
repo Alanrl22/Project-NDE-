@@ -186,13 +186,34 @@ header nav {
      flex-grow: 3;
  }
 
- .network {
-     padding-bottom: 1rem;
+ 
+.network{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    justify-content: center;
+    margin: 1rem;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.network li {
+    list-style-type: none;
+}
+
+.network li a:hover{
+ background: none;
+ transition: background 1s ease;}
+
+ .network i:hover {
+     color: #FF6B6B;
+ }
+
+ .footer_icones{
+     width: 40%;
      display: flex;
      flex-direction: row;
-     justify-content: center;
-     flex-grow: 1;
-     margin-bottom: 2.5rem;
+     justify-content: space-around;
  }
 
  /*------------------------------------------------------------ PAGE JOINUS -----------------------------------------------------------*/
@@ -454,6 +475,11 @@ header nav {
         margin-top: 2%;
     }
 
+    .footer_icones{
+        width: 20%;
+    }
+
+
      /* PROGRAMMATION */
 
      .block-jours {
@@ -490,6 +516,7 @@ header nav {
     padding: 1rem;
     color: white;
     }
+
 
 
      /* Joinus  */
@@ -562,6 +589,10 @@ header nav {
     .story h2 {
         margin: 3rem 0rem;
     }
+
+
+
+
  }
 
 
