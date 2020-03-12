@@ -306,6 +306,7 @@ nav ul li a{
  .story h2 {
      text-align: center;
      padding: 2%;
+     margin: 3% 0 2% 0;
  }
 
  .story h3 {
@@ -317,7 +318,7 @@ nav ul li a{
      padding: 3% 2% 3% 0;
      color: white;
      margin: 2% 3%;
-     text-align: justify;
+     text-align: center;
  }
 
  .aller h2{
@@ -335,6 +336,7 @@ nav ul li a{
         color: #FF6B6B;
         text-transform: uppercase;
         padding: 3%;
+        font-size: 3rem;
     }
 
     p, h3, a, li{
@@ -421,4 +423,57 @@ nav ul li a{
          width: 50%;
      }
 
+     /* Festival */
+
+     .fest-container {
+        margin: auto;
+        position: relative;
+        width: 70%;
+     }
+
+     .fest-container img {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .fest-container p {
+        position: absolute;
+        top: 31.5%;
+        left: 48%;
+        color: black;
+        z-index: 99;
+        font-size: 1.6rem;
+        text-transform: uppercase;       
+        text-align: center;
+        text-justify: center;
+    }
+
+    .opaque {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        background: rgba(255,255,255,.5);
+        width: 50%;
+        height: 100%;
+        padding: 0;
+        border-radius: 0 20px 20px 0px;
+    }
+
+    .aller h3 {
+        font-size: 2.5rem;
+    }
+    .aller h2{
+        font-size: 3rem;
+    }
+    .aller p {
+        font-size: 2rem;
+        padding: 1.5%;
+        margin: 1%;
+    }
+
  }
+
+
+
+
