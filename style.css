@@ -198,13 +198,13 @@ nav ul li a{
 
  input,
  textarea {
-     margin-bottom: 10px;
+     margin-bottom: 0.625rem;
      font-size: 11pt;
-     padding: 15px 10px 10px;
-     border: 1px solid #cecece;
+     padding: 0.938rem 0.625rem 0.625rem;
+     border: 0.1rem solid #cecece;
      background-color: #efefef;
      color: #787575;
-     border-radius: 5px;
+     border-radius: 0.313rem;
      width: 70%;
      outline: none;
      text-align: center;
@@ -212,7 +212,7 @@ nav ul li a{
 
  input#button {
      background-color: #FF6B6B;
-     border-radius: 5px;
+     border-radius: 0.313rem;
      cursor: pointer;
      color: #004E64;
      border: none;
@@ -239,7 +239,7 @@ nav ul li a{
  }
 
  .Contactus div {
-     margin: 10px;
+     margin: 0.625rem;
  }
 
  .Contactus {
