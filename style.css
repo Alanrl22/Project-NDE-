@@ -100,7 +100,7 @@ header nav {
 
  .articles {
      text-align: center;
-     margin-bottom: 7%;
+     margin-bottom: 2rem;
  }
 
  .art_img {
@@ -117,6 +117,7 @@ header nav {
 .container img {
     width: 100%;
     height: auto;
+    border-radius: 6%;
 }
 
 .container .btn {
@@ -126,12 +127,12 @@ header nav {
     transform: translate(-50%, 80%);
     background-color: #FFFF;
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1%;
     width: 30%;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
     z-index: 99;
   }
   
@@ -153,7 +154,7 @@ header nav {
      color: #D3D3D3;
      display: flex;
      flex-direction: column;
-     margin-top: 5%;
+     margin-top: 1.5rem;
      align-items: center;
  }
 
@@ -178,7 +179,7 @@ header nav {
  }
 
  .link_communaute {
-     padding: 1.5%;
+     padding: 0.6rem;
      width: auto;
      margin: auto;
      display: flex;
@@ -186,33 +187,33 @@ header nav {
  }
 
  .network {
-     padding-bottom: 1%;
+     padding-bottom: 1rem;
      display: flex;
      flex-direction: row;
      justify-content: center;
      flex-grow: 1;
-     margin-bottom: 3%;
+     margin-bottom: 2.5rem;
  }
 
  /*------------------------------------------------------------ PAGE JOINUS -----------------------------------------------------------*/
 
  input,
  textarea {
-     margin-bottom: 10px;
+     margin-bottom: 0.625rem;
      font-size: 11pt;
-     padding: 15px 10px 10px;
-     border: 1px solid #cecece;
+     padding: 0.938rem 0.625rem 0.625rem;
+     border: 0.1rem solid #cecece;
      background-color: #efefef;
      color: #787575;
-     border-radius: 5px;
+     border-radius: 0.313rem;
      width: 70%;
      outline: none;
      text-align: center;
  }
 
- input#button {
+ #button {
      background-color: #FF6B6B;
-     border-radius: 5px;
+     border-radius: 0.313rem;
      cursor: pointer;
      color: #004E64;
      border: none;
@@ -239,7 +240,7 @@ header nav {
  }
 
  .Contactus div {
-     margin: 10px;
+     margin: 0.625rem;
  }
 
  .Contactus {
@@ -263,9 +264,7 @@ header nav {
 
  .jours {
      color: #FF6B6B;
-     ;
      text-transform: uppercase;
-
      font-weight: bold;
      font-size: 1.6rem;
  }
@@ -305,7 +304,8 @@ header nav {
 
  .story h2 {
      text-align: center;
-     padding: 2%;
+     padding: 0.5rem;
+     margin: 1rem 0 0.8rem 0;
  }
 
  .story h3 {
@@ -314,10 +314,10 @@ header nav {
  }
 
  .story p {
-     padding: 3% 2% 3% 0;
+     padding: 1rem 0.5rem 1rem 0;
      color: white;
-     margin: 2% 3%;
-     text-align: justify;
+     margin: 0.5rem 1rem;
+     text-align: center;
  }
 
  .aller h2{
@@ -334,7 +334,8 @@ header nav {
         font-family: 'Roboto', sans-serif;
         color: #FF6B6B;
         text-transform: uppercase;
-        padding: 3%;
+        padding: 4rem;
+        font-size: 3rem;
     }
 
     p, h3, a, li{
@@ -452,6 +453,7 @@ header nav {
     }
 
      /* PROGRAMMATION */
+
      .block-jours {
          flex-direction: row;
          width: 70%;
@@ -464,13 +466,74 @@ header nav {
 
      input#button {
          width: 10%;
-         margin-top: 20px;
+         margin-top: 1.25rem;
          font-size: 1.2rem;
      }
 
      input,
      textarea {
          width: 50%;
+         text-align: start;
      }
 
+     #button {
+         text-align: center;
+     }
+
+     /* Festival */
+
+     .fest-container {
+        margin: auto;
+        position: relative;
+        width: 70%;
+     }
+
+     .fest-container img {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .fest-container p {
+        position: absolute;
+        top: 31.5%;
+        left: 48%;
+        color: black;
+        z-index: 99;
+        font-size: 1.6rem;
+        text-transform: uppercase;       
+        text-align: center;
+        text-justify: center;
+    }
+
+    .opaque {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        background: rgba(255,255,255,.5);
+        width: 50%;
+        height: 100%;
+        padding: 0;
+        border-radius: 0 20px 20px 0px;
+    }
+
+    .aller h3 {
+        font-size: 2.5rem;
+    }
+    .aller h2{
+        font-size: 3rem;
+        margin: 3rem 0rem;
+    }
+    .aller p {
+        font-size: 2rem;
+        padding: 0.8rem;
+        margin: 0.6rem;
+    }
+    .story h2 {
+        margin: 3rem 0rem;
+    }
  }
+
+
+
+
