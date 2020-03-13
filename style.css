@@ -323,6 +323,7 @@ header nav {
      display: block;
      margin-right: auto;
      margin-left: auto;
+     border-radius: 10px;
  }
 
  .story h2 {
