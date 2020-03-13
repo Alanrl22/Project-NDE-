@@ -150,6 +150,7 @@ header nav {
       z-index: 99;
       font-size: 1.6rem;
       text-transform: uppercase;
+      text-shadow: black 0.1em 0.1em 0.2em;
   }
 
 
@@ -607,7 +608,9 @@ header nav {
     .btn:hover{
         background: grey;
         color: white;
-        
+        opacity: 0.8;
+        text-shadow: black 0.1em 0.1em 0.2em;
+
     }
 
 
