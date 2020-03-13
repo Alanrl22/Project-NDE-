@@ -72,7 +72,7 @@ header nav {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    padding-bottom: 5%;
+    margin-bottom: 0.5rem;
 }
 
 .menu li{
@@ -81,6 +81,8 @@ header nav {
 
 .menu li a{
     color: #F7FFF7;
+    font-size: 1rem;
+
 }
 
 .icones{
@@ -90,8 +92,11 @@ header nav {
  
 
  /* CAROUSSEL */
-
+.slider{
+   margin-top: 1rem; 
+}
  .slider img {
+     margin-top: 0.5rem;
      width: 100%;
      height: auto;
  }
