@@ -359,6 +359,7 @@ header nav {
  /*------------------------------------------------------------ MEDIA -----------------------------------------------------------*/
 
  @media only screen and (min-width: 768px) {
+
     /* GENERIQUE */
     h2{
         font-family: 'Roboto', sans-serif;
@@ -612,6 +613,27 @@ header nav {
         text-shadow: black 0.1em 0.1em 0.2em;
 
     }
+
+    :root {
+        --background-color: #21314D;
+        --text-color: white;
+        ;
+      }
+      
+    #test[data-theme="dark"] * {
+    --background-color: white;
+    color: red; 
+    }
+
+    label {
+    display: inline;
+    }
+
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+
 
 
  }
