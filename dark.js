@@ -8,7 +8,7 @@ function switchTheme(event) {
         console.log('lightmode');
     }    
 }
-
+/*---------------------------------------------CAROUSEL-----------------------------------------------------*/
 const toggler = document.querySelector('#toggler');
 toggler.addEventListener('change', switchTheme, false);
 

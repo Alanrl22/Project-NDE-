@@ -417,7 +417,7 @@ header nav {
   
 #test[data-theme="dark"] * {
 --background-color: white;
-color: red; 
+color: #A86860; 
 }
 
 label {
@@ -731,12 +731,11 @@ body {
     :root {
         --background-color: #21314D;
         --text-color: white;
-        ;
       }
       
     #test[data-theme="dark"] * {
     --background-color: white;
-    color: red; 
+    color: #A86860; 
     }
 
     label {
