@@ -40,6 +40,21 @@
  /*------------------------------------------------------------ PAGE HOME -----------------------------------------------------------*/
 
  /* HEADER */
+ .lightmode{
+     display: flex;
+     align-items: center;
+ }
+
+ .lightmode label{
+     display: initial;
+     color: white;
+ }
+
+ #toggler{
+    width: 10%;
+    margin: 0;
+ }
+
  header {
 
     width: 100%;
@@ -92,14 +107,46 @@ header nav {
  
 
  /* CAROUSSEL */
-.slider{
-   margin-top: 1rem; 
-}
- .slider img {
-     margin-top: 0.5rem;
-     width: 100%;
-     height: auto;
+
+ .carousel-slide img{
+    width: 100%;
+    height: 65%;
  }
+ .carousel-container{
+    width : 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 4rem;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 4rem;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 
  /* ARTICLE */
 
@@ -249,12 +296,20 @@ header nav {
      width: 30%;
  }
 
+ form{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+ }
+
  fieldset {
      border-style: none;
      text-align: center;
+     width: 100%;
  }
 
- label {
+ #form {
      display: none;
 
  }
@@ -354,6 +409,26 @@ header nav {
      font-size: 1.8rem;
  }
 
+ :root {
+    --background-color: #21314D;
+    --text-color: white;
+    ;
+  }
+  
+#test[data-theme="dark"] * {
+--background-color: white;
+color: red; 
+}
+
+label {
+display: inline;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
 
 
  /*------------------------------------------------------------ MEDIA -----------------------------------------------------------*/
@@ -401,6 +476,7 @@ header nav {
     .menu{
         padding: 0;
         flex-basis: 80%;
+        margin: 0;
     }
 
     .menu li{
@@ -460,7 +536,10 @@ header nav {
     }
 
 /*CAROUSEL*/
-
+    .carousel-slide img {
+        width: 100%;
+        height: 90vh;
+    }
     .carousel-container{
         width : 100%;
         margin: auto;

@@ -1,6 +1,5 @@
 <!doctype html>
-    <html lang="fr">
-        <head>
+<html id="test" lang="fr">        <head>
             <meta charset="utf-8">
             <title>Ndefans</title>
             <link rel="stylesheet" href="style.css">
@@ -9,14 +8,18 @@
             <script src="https://kit.fontawesome.com/8599ffaa71.js" crossorigin="anonymous"></script>
         </head>
         <body>
-            <header>                
+            <div class = "lightmode">
+                <label for="toggler">Enable light mode</label>
+                <input id="toggler" type="checkbox">
+            </div>
+            <header>
                 <h1><a href ="index.html">Ndefans</a></h1>
                 <nav>
                     <ul class="menu">
                         <li><a href="programmation.html">Programmation</a></li>
                         <li><a href="festival.html">Le Festival</a></li>
                         <li><a href="joinus.html">Rejoignez-nous</a></li>
-                    </ul>                
+                    </ul>
                     <ul class ="icones">
                         <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
                         <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
@@ -29,19 +32,19 @@
                 <form action="formulaire">
                     <fieldset>
                         <div>
-                            <label for="nameinput">Your Name</label>
+                            <label id="form" for="nameinput">Your Name</label>
                             <input type="text" name="firstname" placeholder="Prénom" id="nameinput">
                          </div>
                        <div>
-                          <label for="nameinput">Your Name</label>
+                          <label id="form" for="nameinput">Your Name</label>
                           <input type="text" name="firstname" placeholder="Nom" id="nameinput">
                        </div>
                        <div>
-                          <label for="emailinput" id="email">Your Email</label>
+                          <label id="form" for="emailinput" id="email">Your Email</label>
                           <input type="text" name="email" id="emailinput" placeholder="email@email.com" required>
                        </div>
                        <div>
-                          <label for="message">Your Message :</label>
+                          <label id="form" for="message">Your Message :</label>
                           <textarea name="message"            rows="5" cols="30" id="message"            placeholder="Ecrit ton message"></textarea>
                        </div>
                        <div class="submit">
@@ -63,6 +66,7 @@
                     </ul>
                 </div>
             </footer>
-      </body>
-
+            <script src="dark.js"></script>
+    </body>
+        
 </html>

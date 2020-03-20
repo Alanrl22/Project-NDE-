@@ -1,14 +1,18 @@
 function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        console.log('darkmode');
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
+        console.log('lightmode');
     }    
 }
 
 const toggler = document.querySelector('#toggler');
 toggler.addEventListener('change', switchTheme, false);
+
+
 
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
